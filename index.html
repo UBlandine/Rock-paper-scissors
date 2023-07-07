@@ -8,33 +8,39 @@
 </head>
 <body>
   <section>
-  <h1>Rock Paper Scissors</h1>
+    <div class="flex">
+      <h1>Rock Paper Scissors</h1>
+      <h2>Make your choice</h2>
+      <h3>1st To 5th Wins!</h3>
   
-  <h2>Make your choice</h2>
-  <br>
+     
+      <div class="optionBtn">
+        <button id="0">Rock</button>
+        <button id="1">Paper</button>
+        <button id="2">Scissors</button>
+      </div>
   
-  <p>1st to 5th wins!</p>
-  <br>
-  <div class="s1">
-    <button id="selection">Rock</button>
-    <button id="selection">Paper</button>
-    <button id="selection">Scissors</button>
-  </div>
-  <br>
-  <br>
-  <div class="s2">
-    <button id="player">Player selection</button>
-    <button id="computer">Computer selection</button>
-
-  </div>
-  <br>
-  <br>
-  <div class="labels">
-  <span>Result</span>
-  <br>
-  <br>
-  <button id="recall">Play again</button>
-</div>
+      <div class="labels">
+        <span id="playerLabel">Player scores</span>
+        <span id="compLabel">Computer scores</span>
+      </div>
+      
+  
+      <div class="scores">
+        <div id="playerScore"></div>
+        <div id="computerScore"></div>
+      </div>
+  
+    <div><span id="resultsLabel">Results</label></div>
+      
+  
+      <div id="roundResults"></div>
+  
+    <div>
+      <button id="reset">Play Again!</button>
+    </div>
+     
+    </div>
 </section>
   <script src="JS/script.js"></script>
 </body>
